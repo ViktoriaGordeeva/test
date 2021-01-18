@@ -1,0 +1,84 @@
+.preview-line {
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  text-align:start;
+}
+.preview-line:hover{
+    background-color: rgba(133, 196, 252, 0.282);
+    cursor: pointer;
+}
+.preview-line td{
+height: 55px;
+}
+
+.unread{
+  font-weight: bold;
+}
+.preview-from
+{
+  flex-grow: 1;
+  width: 9em;
+  min-width: 7em;
+  margin:0px 15px 0px 15px;
+}
+.preview-body{
+  white-space: nowrap; 
+  margin-left: 20px;
+  width: 400px; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  flex-grow: 1;
+}
+.preview-subject{
+  white-space: nowrap; 
+  margin-left: 20px;
+  width: 6em; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  flex-grow: 3;
+}
+
+.expedned-mail{
+  background-color: rgba(245, 245, 245, 0.763);
+  padding: 30px 70px;
+  margin-bottom: 20px;
+
+}
+
+.expended-mail-body{
+  display: block;
+  font-family:  Arial;
+  line-height: 2.2em;
+  white-space: pre-wrap;
+  margin: 1em 0;
+}
+
+.mail-body-from >span{
+  font-size: 0.9em;
+  margin: 5px;
+  color: grey;
+}
+.mail-title-icons>img{
+  padding: 10px;
+  cursor: pointer;
+}
+.expended-mail-title{
+  justify-content: space-between;
+}
+
+.expended-mail-subtitle{
+  justify-content: space-between;
+  
+}
+
+.preview-time{
+  margin-left: 20px;
+  flex-grow: 1;
+}
+
+.preview-delete{
+  padding-top: 0;
+  margin-top: 0;
+  width: 50px;
+}

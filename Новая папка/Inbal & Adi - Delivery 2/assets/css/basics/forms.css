@@ -1,0 +1,20 @@
+input {
+    background-color: azure;
+    border:0;
+    padding: 5px 10px;
+    margin: 2px;
+}
+
+textarea:focus ,input:focus {
+    transition: 0.5s;
+    background-color: rgba(144, 222, 218, 0.571);
+}
+
+button {
+    padding: 4px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: lightseagreen;
+}

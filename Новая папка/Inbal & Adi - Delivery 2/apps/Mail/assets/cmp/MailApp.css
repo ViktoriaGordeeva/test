@@ -1,0 +1,13 @@
+main{
+}
+.side-nav>ul{
+    width: 100px;
+    line-height: 1.7em;
+   list-style-type: none;
+}
+
+
+.main-container{
+width: 90em;
+    background-color:#4484CD;
+}

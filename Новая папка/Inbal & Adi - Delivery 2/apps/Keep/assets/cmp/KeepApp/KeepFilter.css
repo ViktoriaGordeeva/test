@@ -1,0 +1,28 @@
+.Keep-filter {
+    margin-bottom: 10px;
+  }
+
+.keep-filter-search, .keep-sort {
+    box-shadow: 0px 1px 5px 0 rgba(60, 64, 67, 0.302), 0 1px 3px 1px rgba(60, 64, 67, 0.149);
+    border: none;
+    margin-right: 5px;
+    border-radius: 5px;
+    padding: 7px;
+    outline: none;
+    margin-top: 5px;
+    font-size: 1.2rem;
+    transition: 0.3s;
+  }
+
+  .keep-filter-search:focus {
+    background-color: rgb(199, 199, 199);
+  }
+
+  .keep-filter-search, .keep-sort {
+    font-size: 0.9rem;
+  }
+
+  .keep-filter-search, .keep-sort {
+    padding: 3px;
+    font-size: 0.8rem;
+  }

@@ -1,0 +1,34 @@
+Day #1
+========
+V Create demo emails data
+V Get mails from service 
+V Render mails list
+V Compose. Add mail to data.
+V Emails basic layout
+V Delete email
+V Render open email
+V Add filter (check who sent/receive => inbox/sent) READ/UNREAD
+
+
+Day #2
+========
+V Search box for filtering
+V Flexible filter model
+V Add more attribues to the email (cc, nickname for mail addresses)
+V Design email preview as gmail. with buttons
+V Design compose mail
+V Design Emaildetails
+V Add next/prev mail
+V unread count on top
+V Ability to mark as read/unread
+V Design search/bar on top
+V Dynamic mailboxes render + Active class
+V css header
+- REPLY!
+- show date/time on list
+- Fix mailboxes (unread to section in inbox, dynamic <li> render)
+
+
+ALON MEETING Thrusday Evening:
+================================
+- CSS

@@ -1,0 +1,69 @@
+.modal{
+    position: fixed;
+    width: 600px;
+    height: 570px;
+    background-color: white;
+    top:100px;
+    left: calc(50vw - 220px);
+    border-radius: 5px;
+    z-index: 2;
+}
+.new-mail-header{
+    background-color: #333;
+    justify-content: space-between;
+    color: whitesmoke;
+    border-radius: 5px 5px 0px 0px;
+    line-height: 2.5em;
+    padding-left: 25px;
+}
+
+.new-mail-footer{
+    justify-content: space-between;
+}
+.new-mail-input{
+    display: block;
+    width: 36rem;
+    line-height: 1.6em;
+    font-weight: 500;
+}
+.new-mail-textarea{
+    border: 0px;
+    display: block;
+    font-size: 22px;
+    width: 35rem;
+    padding: 20px;
+    margin-right: 0;
+}
+
+.close-btn {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: 5px;
+    right: 10px;
+    border: 0px;
+}
+
+.submit-btn{
+    position: absolute;
+    font-size: 1.1em;
+    border: 0px;
+    width: 100px;
+    height: 50px;
+    bottom: 5px;
+    left: 10px; 
+} 
+
+.image-upload > input
+{
+    display: none;
+}
+
+.image-upload img
+{
+    padding: 25px 30px 0 0;
+    width: 30px;
+    cursor: pointer;
+}
+.filter-att{
+    filter: invert(100%) sepia(52%) saturate(277%) hue-rotate(312deg) brightness(113%) contrast(92%);}

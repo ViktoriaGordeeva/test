@@ -1,0 +1,19 @@
+Day 1
+=========
+V Render all components
+V Create 4 notes with demo data
+V Render each note type
+V Get notes from service
+V Add note from input
+V Delete note
+V Add search/filter
+
+Day 2
+=========
+V Render video note
+V Add attributes to notes according to spec
+V Update note
+- add note pin
+- inline styling
+- Toolbar Design and implement 
+

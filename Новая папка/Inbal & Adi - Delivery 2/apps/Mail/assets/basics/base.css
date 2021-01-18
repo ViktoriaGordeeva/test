@@ -1,0 +1,47 @@
+html, body, div, header, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+nav .active {
+    color: rgb(187, 154, 223);
+    text-decoration: underline;
+}
+
+nav .my-active {
+    color: lightskyblue;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid gray;
+    margin-top: 5px;
+}
+
+
+.small {
+    font-size: 0.8em;
+}
+
+.center {
+    text-align: center;
+}
+
+.btn {
+    background-color: goldenrod;
+    padding: 5px;
+    margin: 5px;
+}
+
+.user-msg {
+    background-color: gray;
+}
+

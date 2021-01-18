@@ -1,0 +1,77 @@
+html, body, div, header, h1 {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --primary-color: rgb(47, 79, 79);
+    --secondary-color: rgb(245, 222, 179);
+    --inline-margin: 20px;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: beige;
+}
+
+button, input {
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+img {
+    width: 100%;
+}
+nav .active {
+    color: rgb(187, 154, 223);
+    text-decoration: underline;
+}
+
+nav .my-active {
+    color: lightskyblue;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid gray;
+    margin-top: 5px;
+}
+
+.debug *{
+    outline: 1px solid orange;
+}
+
+.small {
+    font-size: 0.8em;
+}
+
+.center {
+    text-align: center;
+}
+
+.btn {
+    background-color: goldenrod;
+    padding: 5px;
+    margin: 5px;
+}
+
+.user-msg {
+    background-color: gray;
+}
+
+/* HELPERS */
+.flex { display: flex;}
+.flex.space-between {justify-content: space-between;}
+.flex.space-around {justify-content: space-around;}
+.flex.align-center {align-items: center;}
+.inline {display: inline;}
+.mrg-bottom { margin-bottom: 20px}
+.mrg-start {margin-inline-start: var(--inline-margin);}
+.clean-list {list-style-type: none; margin: 0; padding: 0;}

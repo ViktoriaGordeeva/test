@@ -1,0 +1,79 @@
+@font-face
+{
+    font-family: 'Caveat';
+    src: url('../../../assets/fonts/Caveat/Caveat-Regular.ttf') format('truetype');	           	
+}
+
+@font-face
+{
+    font-family: 'Caveat-Bold';
+    src: url('../../../assets/fonts/Caveat/Caveat-Bold.ttf') format('truetype');	           	
+}
+
+.note{
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 1px 1px 2px 1px #b8b8b8;
+
+}
+
+  .img-note {
+    display: grid;
+    width: 250px;
+    min-height: 80px;
+    background-color: rgb(208, 106, 106);
+    grid-template-columns: repeat( auto-fit, minmax(250px, 250px));
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .img-note>img{
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+  }
+
+  .todo-note{
+    display: grid;
+    font-family: 'Caveat';
+    font-size: 1.5em;
+    width: 250px;
+    min-height: 80px;
+    background-color: rgb(191, 174, 242);
+    grid-template-columns: repeat( auto-fit, minmax(250px, 250px));
+    gap: 10px;
+    padding: 10px;
+  } 
+
+   .video-note{
+    display: grid;
+    width: 250px;
+    min-height: 80px;
+    background-color: rgb(239, 236, 160);
+    grid-template-columns: repeat( auto-fit, minmax(250px, 250px));
+    gap: 10px;
+    padding: 10px;
+  } 
+  
+  .txt-note{
+    display: grid;
+    font-family: 'Caveat';
+    font-size: 3em;
+    width: 250px;
+    min-height: 100px;
+    background-color: whitesmoke;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 250px));
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .audio-note{
+    display: grid;
+    font-family: 'Caveat';
+    font-size: 3em;
+    width: 200px;
+    min-height: 70px;
+    background-color: rgb(213, 132, 213);
+    grid-template-columns: repeat( auto-fit, minmax(250px, 250px));
+    gap: 10px;
+  }

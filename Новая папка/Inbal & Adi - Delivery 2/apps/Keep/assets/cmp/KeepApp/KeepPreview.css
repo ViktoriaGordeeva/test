@@ -1,0 +1,24 @@
+.keep-preview:hover {
+    opacity: 0.8;
+  }
+  
+  .keep-preview.img {
+    height: 17rem;
+  }
+  
+  .keep-preview img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .keep-preview iframe {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+    border: none;
+  }
+  
+  .keep-preview video {
+    width: 90%;
+    height: 100%;
+  }

@@ -1,0 +1,11 @@
+.flex{
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.debug{
+    border: 2px solid gold;
+}

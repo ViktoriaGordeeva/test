@@ -1,0 +1,8 @@
+.side-ul>li{
+    line-height: 2.5em;
+    cursor: pointer;
+}
+
+.side-ul>li:hover{
+    font-weight: bold;
+}

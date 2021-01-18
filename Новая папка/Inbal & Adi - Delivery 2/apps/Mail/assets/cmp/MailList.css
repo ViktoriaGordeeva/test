@@ -1,0 +1,20 @@
+.mail-list-header > tr{
+    display: flex;
+    font-size: 17px;
+    text-align: start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.header-from{
+    flex-grow: 1;
+}
+.header-subject{
+    flex-grow: 1;
+}
+.header-body{
+    flex-grow: 3;
+}
+.header-recieved{
+    flex-grow: 1;
+}

@@ -1,0 +1,30 @@
+.keep-details.img {
+    justify-content: space-around;
+  }
+
+  .keep-details img {
+    max-width: 100%;
+    height: 100%;
+  }
+  
+  .keep-details iframe {
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+  .keep-details {
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .keep-details .keep-add .keep-add-container {
+    bottom: 5px;
+    padding: 10px;
+    margin: 0 auto;
+    box-shadow: none;
+  }

@@ -1,0 +1,24 @@
+.keep-app .container-lists {
+    width: 100%;
+  }
+
+  .container-lists {
+    width: 100%;
+  }
+
+  .keep-list {
+    /* columns: 4;
+    column-gap: 2em; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: width 900px; ;
+    padding: 20px;
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+  
+  .keep-list>* {
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+  }

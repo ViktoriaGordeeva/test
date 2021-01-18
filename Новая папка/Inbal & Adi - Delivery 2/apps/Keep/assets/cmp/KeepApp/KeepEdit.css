@@ -1,0 +1,40 @@
+.keep-edit {
+    display: none;
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    justify-content: space-evenly;
+    left: 0;
+  }
+  
+  .keep-edit>* {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 1rem;
+    width: 100%;
+    color: black;
+  }
+
+  .keep-edit-details {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(238, 12, 12, 0.8);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 8px;
+  }
+
+  .keep-edit-details>* {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 1rem;
+    width: 100%;
+  }
+  
+  .keep-edit button:hover {
+    opacity: 0.5;
+  }

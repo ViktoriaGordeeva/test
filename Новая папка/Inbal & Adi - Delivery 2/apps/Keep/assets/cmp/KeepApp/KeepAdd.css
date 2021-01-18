@@ -1,0 +1,54 @@
+.keep-add {
+    text-align: center;
+  }
+
+  .note-add-btn{
+    background-color:transparent;
+  }
+
+  .note-add-btn:focus{
+    filter: invert(47%) sepia(35%) saturate(1686%) hue-rotate(155deg) brightness(97%) contrast(105%);
+  }
+
+  .add-keep-btn{
+    width: 100px;
+    border-radius: 3px;
+    padding: 9px;
+    background-color: hotpink;
+  }
+
+  .keep-add-container {
+    background-color: white;
+    max-width: 650px;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 2px 1px 5px 0px #757272;
+  }
+  
+  .keep-add-container>* {
+    border: none;
+    font-size: 1.1rem;
+    outline: none;
+  }
+
+  .input-search {
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .keep-add-container button i:hover {
+    opacity: 0.7;
+  }
+  
+  .keep-add-container button i:active {
+    color: black;
+  }
+  
+  .keep-add {
+    text-align: center;
+  }
+  
